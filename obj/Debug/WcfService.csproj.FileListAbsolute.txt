@@ -20,3 +20,11 @@ D:\BaDe\CMProject\WCF_APIRest\WcfService\bin\Newtonsoft.Json.dll
 D:\BaDe\CMProject\WCF_APIRest\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
 D:\BaDe\CMProject\WCF_APIRest\WcfService\obj\Debug\WcfService.dll
 D:\BaDe\CMProject\WCF_APIRest\WcfService\obj\Debug\WcfService.pdb
+E:\Projects\WcfService\bin\WcfService.dll.config
+E:\Projects\WcfService\bin\WcfService.dll
+E:\Projects\WcfService\bin\WcfService.pdb
+E:\Projects\WcfService\bin\Newtonsoft.Json.dll
+E:\Projects\WcfService\obj\Debug\WcfService.csprojResolveAssemblyReference.cache
+E:\Projects\WcfService\obj\Debug\WcfService.csproj.CoreCompileInputs.cache
+E:\Projects\WcfService\obj\Debug\WcfService.dll
+E:\Projects\WcfService\obj\Debug\WcfService.pdb

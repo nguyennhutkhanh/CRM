@@ -44,6 +44,7 @@ namespace WcfService.DAO
                                 d = new DepartmentBDO();
                                 d.id = id;
                                 d.dep_name = (string)reader["dep_name"];
+                                d.dep_fullname = (string)reader["dep_fullname"];
                                 d.permission = (string)reader["permission"];
                             }
                             reader.Close();
@@ -89,6 +90,7 @@ namespace WcfService.DAO
                             cmd.CommandType = System.Data.CommandType.StoredProcedure;
                             cmd.Parameters.AddWithValue("@department_id", d.id);
                             cmd.Parameters.AddWithValue("@dep_name", d.dep_name);
+                            cmd.Parameters.AddWithValue("@dep_fullname", d.dep_fullname);
                             cmd.Parameters.AddWithValue("@permission", d.permission);
                             cmd.Connection = conn;
                             await conn.OpenAsync();
@@ -197,6 +199,7 @@ namespace WcfService.DAO
                                     {
                                         id = (int)rd["id"]
                                         ,dep_name = (string)rd["dep_name"]
+                                        ,dep_fullname = (string)rd["dep_fullname"]
                                         ,permission = (string)rd["permission"]
 
                                     });
